@@ -1,4 +1,4 @@
-const { Typed } = require("./typed");
+import { Typed } from "./typed";
 
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');

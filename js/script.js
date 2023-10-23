@@ -46,7 +46,7 @@ ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*********************** typed js ****************************** */
-const typed = new Typed('.mutiple-text', {
+const typed = new Typed('.multiple-text', {
     strings: ['Développeur Web et mobile', 'Administrateur de base de données', 'Désigner'],
     typeSpeed: 100,
     backSpeed: 100,

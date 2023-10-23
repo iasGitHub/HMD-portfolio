@@ -1,5 +1,3 @@
-import { Typed } from "./typed";
-
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -48,7 +46,7 @@ ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*********************** typed js ****************************** */
-const typed = new Typed('.multiple-text', {
+const typed = new typed('.multiple-text', {
     strings: ['Développeur Web et mobile', 'Administrateur de base de données', 'Désigner'],
     typeSpeed: 100,
     backSpeed: 100,
